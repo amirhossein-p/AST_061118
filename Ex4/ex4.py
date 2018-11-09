@@ -2,8 +2,8 @@ import math
 import numpy as np
 print(math.floor(np.pi))
 class Circle:
-    
-    
+
+
     def __init__(self,p,d):
         if p <= 0:
             p = 2
@@ -27,10 +27,10 @@ class Circle:
                 print("% change in Circumference: ", round((abs(Circumferences[i-1]-Circumferences[i])/Circumferences[i])*100,3),'%')
             print('\n')
         return Circumferences, Circ_percent_changes
-     
+
     def CalcArea(self):
         Areas = []
-        Area_percent_changes = [] 
+        Area_percent_changes = []
         for i in range(self.precision+1):
             pi = math.floor(np.pi*10**i)/10**i
             A = pi*(self.radius**2)
@@ -45,8 +45,8 @@ class Circle:
 
         return Areas, Area_percent_changes
 
-diameter = input("Enter the diameter of a circle ")
-precision = input("Enter the precision value for pi ")
+diameter = int(input("Enter the diameter of a circle "))
+precision = int(input("Enter the precision value for pi "))
 
 
 C = Circle(precision,diameter)
