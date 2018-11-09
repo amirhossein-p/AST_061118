@@ -1,0 +1,21 @@
+Ex3 - Contract
+
+Method signature:
+
+fn(n):
+  return out
+
+definition:
+n: int - number of iterations
+out: list of strings - list of outputs
+functionality: iterates from 0 to n, calculates f(n) for each n, appends the result to a list, and returns the list of results with length equal to n.
+
+Methods:
+method name	function	comment
+fn1		2n		--
+fn2		n^(1/2)		in 4 decimal points
+fn3		10^n		in scientific notation to 2 decimal points
+fn4		n^3		--
+fn5		2^(1/n)		in 4 decimal points
+fn6		e^n		in scientific notation to 2 decimal points
+
