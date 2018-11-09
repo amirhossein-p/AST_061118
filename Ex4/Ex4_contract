@@ -1,0 +1,12 @@
+--------------------------------------EX4 Contract---------------------------------------------------------------------
+
+Class Circle ----> Attributes: Diameter
+Class methods:
+CalcArea(Precision of pi) ----> returns a list of Areas and a list of percentage changes in Areas[index-1] and Areas[index]
+Areas ----> length is equal to the precision value
+Percentage changes in circumferences (rounded to 3 decimal points) ----> length is equal to the precision value - 1
+
+
+CalcCircumference(Precision of pi) ----> returns a list of Circumferences and a list of percentage changes in Circumferences[index-1] and Circumferences[index]
+Circumferences ----> length is equal to the precision value
+Percentage changes in circumferences (rounded to 3 decimal points) ----> length is equal to the precision value - 1
